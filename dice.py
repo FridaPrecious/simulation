@@ -11,6 +11,7 @@ num_rolls = 1000
 # Counters for each face
 face_counts = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
 
+
 # Simulate rolling the dice and count the occurrences
 for _ in range(num_rolls):
     result = roll_dice()
